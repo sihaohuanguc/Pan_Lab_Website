@@ -1,0 +1,78 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Pan Lab Website
+  version: v0.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+  - title: Learn about the lab
+    output: web, pdf
+    folderitems:
+
+    - title: Research
+      url: /lab_research.html
+      output: web, pdf   
+    
+    - title: People
+      url: /lab_people.html
+      output: web, pdf 
+
+    - title: Publications
+      url: /lab_publications.html
+      output: web, pdf 
+    
+    - title: Methods
+      url: /lab_methods.html
+      output: web, pdf 
+
+  - title: Contact
+    output: web, pdf
+    folderitems:
+
+    - title: External links
+      url: /lab_external_link.html
+      output: web, pdf
+    
+    - title: Contact us
+      url: /lab_contact_info.html
+      output: web, pdf
+
+  - title: Resourses
+    output: web, pdf
+    folderitems:
+
+    - title: Bioinformatics resourses
+      url: /lab_resourses.html
+      output: web, pdf
+
+
+
+
+
+
+
+
+# Copyright 2021 Google LLC

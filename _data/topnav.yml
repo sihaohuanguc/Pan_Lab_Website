@@ -1,0 +1,30 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/sihaohuanguc  # change this 
+    - title: News
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Tag1
+      folderitems:
+        - title: Programmer's buddy
+          external_url: https://www.google.com
+        - title: Programmer's buddy 2
+          external_url: https://chat.openai.com/chat#
+    - title: Tag2
+      folderitems:
+        - title: Link within this website
+          url: /nanopore_packages.html
+        - title: Product 1
+          url: /nanopore_packages.html
+        - title: Product 2
+          url: /nanopore_packages.html
+
+# Copyright 2021 Google LLC
